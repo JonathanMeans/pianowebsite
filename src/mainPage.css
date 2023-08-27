@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+Link {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+
+}
+
+a:hover {
+  color: gray;
+}
+
+.mainDiv {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-columns: 1fr 9fr;
+  grid-template-rows: 2fr 8fr;
+  /* makes the stars and borders black */
+  background-color: black;
+}
+
+/* what divs share */
+.innerMainDivs {
+  background-color: #e8e6e3;
+  border: 1px;
+}
+
+.rightDivs {
+  border-left: thin solid black;
+}
+
+/* mainly for star */
+.upperRightDiv {
+  border-bottom-left-radius: 20px;
+  border-bottom: thin solid;
+}
+
+.upperLeftDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  border-bottom: thin solid;
+}
+
+/* main body of the page */
+.lowerRightDiv {
+  border-top-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.lowerRightTop {
+  display: flex;
+  flex-direction: row;
+  border-bottom: thin solid;
+}
+
+/* left main body div */
+.innerMLeftDiv {
+  width: 50%;
+  height: 50%;
+}
+
+.backgroundTit {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.innerMRightDiv {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catImage {
+  width: 400px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.subCatText {
+  margin-top: 10px;
+}
+
+.innerTitles {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+/* main body text */
+.para {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.lowerLeftDiv {
+  border-top-right-radius: 20px;
+}
+
+.upperHeadDiv {
+  display: grid;
+  grid-template-columns: 6fr 7fr;
+}
+
+.lowerHeadDiv {
+  margin-top: 20px;
+  padding-left: 50px;
+  margin-bottom: 30px;
+}
+
+.navBarList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  border-bottom: thin solid black;
+}
+
+.bottomHalfMain {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.leftHalf {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.rightHalf {
+  width: 50%;
+  padding-right: 10px;
+}
+
+.logoImg {
+  height: 6em;
+}
+
+.video {}

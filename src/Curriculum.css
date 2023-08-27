@@ -1,0 +1,32 @@
+.curTitles {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.all {
+    margin-left: 50px;
+    padding-right: 30px;
+}
+
+.extraSpace {
+    padding-bottom: 130px;
+}
+
+.extraSpaceFAQ {
+    padding-bottom: 190px;
+}
+
+.FAQMain {
+    align-content: center;
+}
+
+#lessonDiv {
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FAQList {
+    margin-bottom: 20px;
+}
