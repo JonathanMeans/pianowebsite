@@ -2,13 +2,15 @@ import { Component } from "react";
 import "./mainPage.css";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
+import logoImage from "./77143_Jon MeansPiano Studio_Flat_HP_05.png";
+import catImage from "./TK_on_bench_cropped.png"
 
 class MainPage extends Component {
   render() {
     return (
       <div className="mainDiv">
         <div className="innerMainDivs upperLeftDiv">
-          <img className="logoImg" src="./77143_Jon MeansPiano Studio_Flat_HP_05.png" />
+          <img className="logoImg" src={logoImage} alt="Logo" />
         </div>
         <div className="innerMainDivs rightDivs upperRightDiv">
           <div className="upperHeadDiv">
@@ -39,7 +41,7 @@ class MainPage extends Component {
               <p className="para">Contact me at jetmeans@gmail.com to set up a free trial lesson!</p>
             </div>
             <div className="innerMRightDiv">
-              <img className="catImage" src="./TK_on_bench_cropped.png" alt="TK (cat) on bench" />
+              <img className="catImage" src={catImage} alt="TK (cat) on bench" />
               <p className="subCatText">Lessons take place in my home studio in Ypsilanti with occasional guest appearances by TK the cat.</p>
               <h2 className="backgroundTit">My Background</h2>
             </div>
