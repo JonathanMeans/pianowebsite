@@ -8,7 +8,7 @@ class MainPage extends Component {
     return (
       <div className="mainDiv">
         <div className="innerMainDivs upperLeftDiv">
-          <img className="logoImg" src="src/77143_Jon MeansPiano Studio_Flat_HP_05.png" />
+          <img className="logoImg" src="./77143_Jon MeansPiano Studio_Flat_HP_05.png" />
         </div>
         <div className="innerMainDivs rightDivs upperRightDiv">
           <div className="upperHeadDiv">
@@ -39,7 +39,7 @@ class MainPage extends Component {
               <p className="para">Contact me at jetmeans@gmail.com to set up a free trial lesson!</p>
             </div>
             <div className="innerMRightDiv">
-              <img className="catImage" src="src/TK_on_bench_cropped.png" alt="TK (cat) on bench" />
+              <img className="catImage" src="./TK_on_bench_cropped.png" alt="TK (cat) on bench" />
               <p className="subCatText">Lessons take place in my home studio in Ypsilanti with occasional guest appearances by TK the cat.</p>
               <h2 className="backgroundTit">My Background</h2>
             </div>

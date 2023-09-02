@@ -9,7 +9,7 @@ class Curriculum extends Component {
         return (
             <div className="mainDiv">
                 <div className="innerMainDivs upperLeftDiv">
-                    <img className="logoImg" src="src/77143_Jon MeansPiano Studio_Flat_HP_05.png" />
+                    <img className="logoImg" src="./77143_Jon MeansPiano Studio_Flat_HP_05.png" />
                 </div>
                 <div className="innerMainDivs rightDivs upperRightDiv">
                     <div className="upperHeadDiv">
