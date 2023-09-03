@@ -4,6 +4,7 @@
     max-height: 50px;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;

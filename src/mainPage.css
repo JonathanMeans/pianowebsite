@@ -9,7 +9,9 @@ Link {
   list-style: none;
   text-decoration: none;
 }
-
+.navLink{
+  padding: 0 10px;
+}
 a {
   text-decoration: none;
   color: black;
@@ -66,14 +68,18 @@ a:hover {
 
 .lowerRightTop {
   display: flex;
+  padding-right: 20px;
   flex-direction: row;
   border-bottom: thin solid;
+  justify-content: space-around;
+
 }
 
 /* left main body div */
+
 .innerMLeftDiv {
-  width: 50%;
-  height: 50%;
+  
+  
 }
 
 .backgroundTit {
@@ -82,7 +88,7 @@ a:hover {
 }
 
 .innerMRightDiv {
-  width: 50%;
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -114,8 +120,11 @@ a:hover {
 }
 
 .upperHeadDiv {
-  display: grid;
-  grid-template-columns: 6fr 7fr;
+  /* display: grid;
+  grid-template-columns: 6fr 7fr; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .lowerHeadDiv {
@@ -157,3 +166,58 @@ a:hover {
 }
 
 .video {}
+
+.mobile-menu-button{
+  margin-top: 40px;
+  margin-right: 40px;
+  font-size: 24px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .navBarList {
+    display: none; /* Hide the desktop navigation */
+  }
+
+  .mobile-menu-button {
+    display: block; /* Show the mobile menu button */
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-menu {
+    display: none; /* Hide the mobile menu */
+  }
+  .mobile-menu-button{
+    display: none;
+  }
+}
+
+
+@media (max-width: 768px){
+  .innerMLeftDiv{
+    flex: 1;
+  }
+  .innerMLeftDiv{
+    flex: 1;
+  }
+  .lowerRightTop{
+    flex-wrap: wrap;
+  }
+  .bottomHalfMain{
+    flex-direction: column;
+  }
+  .leftHalf{
+    margin: 10px 0;
+  }
+  .rightHalf{
+    margin: 10px 0;
+    width: 100%;
+  }
+  .innerMRightDiv{
+    margin: 10px;
+  }
+  .catImage{
+    width: 300px;
+    height: 225px;
+  }
+}
