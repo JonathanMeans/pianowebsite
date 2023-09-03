@@ -27,10 +27,9 @@ a:hover {
   display: grid;
   height: 100vh;
   width: 100vw;
-  grid-template-columns: 1fr 9fr;
   grid-template-rows: 2fr 8fr;
-  /* makes the stars and borders black */
-  background-color: black;
+ 
+
 }
 
 /* what divs share */
@@ -43,23 +42,16 @@ a:hover {
   border-left: thin solid black;
 }
 
-/* mainly for star */
-.upperRightDiv {
-  border-bottom-left-radius: 20px;
-  border-bottom: thin solid;
+.upperLeftDiv{
+  position: absolute;
+  top: 10px;
+  left: 3px;
 }
-
-.upperLeftDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom-right-radius: 20px;
-  border-bottom: thin solid;
+.lowerHeadDiv h1{
+  margin-top: 70px;
 }
-
 /* main body of the page */
 .lowerRightDiv {
-  border-top-left-radius: 20px;
   display: flex;
   flex-direction: column;
 
@@ -116,7 +108,7 @@ a:hover {
 }
 
 .lowerLeftDiv {
-  border-top-right-radius: 20px;
+  /*border-top-right-radius: 20px;*/
 }
 
 .upperHeadDiv {

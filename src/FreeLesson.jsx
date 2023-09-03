@@ -24,9 +24,7 @@ class FreeLesson extends Component {
         const { isMobileMenuOpen } = this.state;
         return (
             <div className="mainDiv">
-                <div className="innerMainDivs upperLeftDiv">
-                    <img className="logoImg" src={logoImage} alt="Logo" />
-                </div>
+                
                 <div className="innerMainDivs rightDivs upperRightDiv">
                     <div className="upperHeadDiv">
                         <div className="logoDiv"></div>
@@ -51,6 +49,9 @@ class FreeLesson extends Component {
                         />
                     </div>
                     <div className="lowerHeadDiv">
+                        <div className="innerMainDivs upperLeftDiv">
+                            <img className="logoImg" src={logoImage} alt="Logo" />
+                        </div>
                         <h1>Free Lesson</h1>
                     </div>
                 </div>
